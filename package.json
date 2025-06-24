@@ -1,0 +1,31 @@
+{
+  "name": "genaidep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch src/index.js",
+    "build": "tsc src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seekerjason/genAIdep.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/seekerjason/genAIdep/issues"
+  },
+  "homepage": "https://github.com/seekerjason/genAIdep#readme",
+  "dependencies": {
+    "@genkit-ai/express": "^1.13.0",
+    "@genkit-ai/googleai": "^1.13.0",
+    "genkit": "^1.13.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
