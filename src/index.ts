@@ -23,10 +23,4 @@ const helloFlow = ai.defineFlow(
 
 startFlowServer({
   flows: [helloFlow],
-    port: 3000,
-    cors: {
-        origin: '*',
-        methods: ['GET', 'POST'],
-        allowedHeaders: ['Content-Type', 'Authorization'],
-    },
 });
