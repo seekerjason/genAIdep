@@ -2,6 +2,8 @@ import { genkit, z } from 'genkit';
 import { googleAI } from '@genkit-ai/googleai';
 import { startFlowServer } from '@genkit-ai/express';
 
+require('dotenv').config();
+
 const ai = genkit({
   plugins: [googleAI()],
   model: googleAI.model('gemini-2.5-flash'),
